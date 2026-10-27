@@ -118,7 +118,7 @@ export function Dialog({
         aria-labelledby={titleId}
         aria-describedby={description ? descriptionId : undefined}
         className={cn(
-          "relative w-full animate-scale-in rounded-2xl border border-line bg-panel p-5 shadow-panel",
+          "relative max-h-[85dvh] w-full animate-scale-in overflow-y-auto rounded-2xl border border-line bg-panel p-5 shadow-panel",
           widthClassName,
         )}
       >
