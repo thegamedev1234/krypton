@@ -1,7 +1,7 @@
 # KRYPTON — AI workspace (frontend only)
 
 A polished, dark-first AI workspace interface built with **Next.js App Router**, **React**,
-**TypeScript**, **Tailwind CSS**, and **Lucide**. Conversations, model tiers, artifacts, tools, and
+**TypeScript**, **Tailwind CSS**, **Lucide**, and self-hosted **Geist** typography. Conversations, model tiers, artifacts, tools, and
 settings are all demonstrated with local React state.
 
 > **This repository is a frontend demonstration.** There is no model provider, API route, server
