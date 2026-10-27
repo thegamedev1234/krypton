@@ -135,7 +135,7 @@ export function ToolsView() {
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 placeholder="Search capabilities"
-                className="h-9 w-full rounded-lg border border-line bg-surface/60 pl-8 pr-8 text-xs text-ink placeholder:text-faint transition-colors focus:border-lineStrong focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 [&::-webkit-search-cancel-button]:hidden"
+                className="h-9 w-full rounded-lg border border-line bg-surface/60 pl-8 pr-8 text-base text-ink sm:text-xs placeholder:text-faint transition-colors focus:border-lineStrong focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 [&::-webkit-search-cancel-button]:hidden"
               />
               {query ? (
                 <button

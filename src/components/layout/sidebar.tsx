@@ -300,7 +300,7 @@ function SidebarBody({
                 }}
                 placeholder="Search conversations"
                 autoComplete="off"
-                className="h-8 w-full rounded-lg border border-line bg-canvas/60 pl-8 pr-8 text-xs text-ink placeholder:text-faint transition-colors focus:border-lineStrong focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 [&::-webkit-search-cancel-button]:hidden"
+                className="h-8 w-full rounded-lg border border-line bg-canvas/60 pl-8 pr-8 text-base text-ink sm:text-xs placeholder:text-faint transition-colors focus:border-lineStrong focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/50 [&::-webkit-search-cancel-button]:hidden"
               />
               {searchQuery ? (
                 <button
@@ -538,7 +538,7 @@ function SidebarBody({
           }}
           maxLength={80}
           autoComplete="off"
-          className="mt-1.5 h-9 w-full rounded-lg border border-line bg-canvas/70 px-3 text-[13px] text-ink placeholder:text-faint focus:border-lineStrong focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
+          className="mt-1.5 h-9 w-full rounded-lg border border-line bg-canvas/70 px-3 text-base text-ink sm:text-[13px] placeholder:text-faint focus:border-lineStrong focus:outline-none focus-visible:ring-2 focus-visible:ring-accent/60"
         />
         <p className="mt-1.5 text-right font-mono text-2xs text-faint">
           {renameValue.length}/80

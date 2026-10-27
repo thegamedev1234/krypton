@@ -204,7 +204,7 @@ export function Composer({
           placeholder="Message Krypton..."
           aria-describedby="composer-hints"
           className={cn(
-            "block w-full resize-none bg-transparent text-[15px] leading-6 text-ink placeholder:text-faint",
+            "block w-full resize-none bg-transparent text-base leading-6 text-ink placeholder:text-faint sm:text-[15px]",
             "focus:outline-none",
             variant === "welcome" ? "min-h-[3.25rem]" : "min-h-[2.5rem]",
           )}
